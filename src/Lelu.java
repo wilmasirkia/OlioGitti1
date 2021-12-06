@@ -7,7 +7,9 @@ public class LeluTehtava {
 		VieteriAuto vieteriAuto = new VieteriAuto("Renault", 10, 100);
 		vieteriAuto.tulostaTiedot();
 		}		
-} //tähän päättyy
+} //tï¿½hï¿½n pï¿½ï¿½ttyy
+
+//ja tÃ¤stÃ¤ alkaa uusi luokkaosio
 
 class Lelu {
 	
@@ -49,7 +51,7 @@ class VieteriAuto extends Lelu {
 		nopeus = nopeus++;
 	}
 	
-	@Override //Muista aina tämä oikeaoppisen koodin vuoksi  
+	@Override //Muista aina tï¿½mï¿½ oikeaoppisen koodin vuoksi  
 	public void tulostaTiedot()	{    
     super.tulostaTiedot();
 		System.out.println("Nopeus: " + nopeus + "km/h");
