@@ -49,7 +49,7 @@ class VieteriAuto extends Lelu {
 		nopeus = nopeus++;
 	}
 	
-	@Override  
+	@Override //Muista aina tämä oikeaoppisen koodin vuoksi  
 	public void tulostaTiedot()	{    
     super.tulostaTiedot();
 		System.out.println("Nopeus: " + nopeus + "km/h");
